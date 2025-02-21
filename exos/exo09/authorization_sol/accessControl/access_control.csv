@@ -1,0 +1,6 @@
+g, bob, dev
+g, charlie, admin
+g, admin, dev
+
+p, admin, admin
+p, dev, git

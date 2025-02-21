@@ -1,0 +1,11 @@
+[package]
+name = "minilog"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.95"
+env_logger = "0.11.6"
+tracing = { version = "0.1.41", features = ["log"] }
+tracing-subscriber = { version = "0.3.19", features = ["json"] }
+validator = "0.19.0"
